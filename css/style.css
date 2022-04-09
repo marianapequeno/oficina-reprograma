@@ -1,0 +1,137 @@
+body{
+    font-size: 12px;
+}
+
+.caixa-banner{
+    background-image: url(..//img/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo1{
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.subtitulo1{
+    font-size: 28px;
+    text-shadow: 2px 2px black;
+}
+
+.link-sobre{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #7e459b;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.link-cv{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #385898;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.caixa-sobre{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.lado1{
+    width: 35%;
+}
+
+.margin-texto{
+    margin-bottom: 40px;
+}
+.lado2{
+    width: 35%;
+}
+
+h3{
+    font-size: 25px;
+}
+
+ul{
+    line-height: 1.8;
+}
+
+.titulo-sobre{
+    margin-left: 100px;
+    font-size: 35px;
+    color: darkslategray;
+}
+
+.caixa-links{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links{
+    background-color: #7e459b;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+@media (max-width: 710px){
+    .caixa-sobre{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lado1{
+        width: 80%;
+    }
+
+    .lado2{
+        width: 80%;
+    }
+
+    .titulo-sobre{
+        margin: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .links{
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .icone{
+        margin-top: 40px;
+    }
+}
