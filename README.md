@@ -1,2 +1,4 @@
-# Oficina front-end turma on17 {reprograma}
-Projeto desenvolvido na oficina front-end da Reprograma. Hospedado em (link interno): https://workshop2on17-marianappequeno.netlify.app/
+# Projeto página pessoal - {reprograma}
+Projeto desenvolvido na oficina front-end da Reprograma. A oficina é uma introdução ao front-end e aborda o conteúdo introdutório de HTML5, CSS3 e hospedagem de site no [Netlify](https://www.netlify.com/).
+
+Para conferir o projeto [clique aqui](https://workshop2on17-marianappequeno.netlify.app/) :point_left: :woman_technologist:
